@@ -3,7 +3,7 @@ import axios from 'axios'
 
 export const useCounterStore = defineStore('counter', {
   state: () => ({
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'https://resto-wl-production.up.railway.app',
     cuisines: [],
     bookmark: [],
     currentPage: 1,
